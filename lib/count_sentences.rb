@@ -18,4 +18,5 @@ class String
     self.split(".","!","?")
     self.count
   end
+
 end
