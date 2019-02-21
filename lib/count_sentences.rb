@@ -15,6 +15,10 @@ class String
   end
 
   def count_sentences
-
+    count = 0
+    if exclamation? || sentence? || question?
+      count += 1
+    end
+    count
   end
 end
