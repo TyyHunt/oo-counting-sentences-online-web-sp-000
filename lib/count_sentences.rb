@@ -15,7 +15,7 @@ class String
   end
 
   def count_sentences
-    separated = self.split(/[^\.!?]+[\.!?]+|[^\.!?]+.\z/)
+    separated = self.split(/[.?!]!/)
     separated.size
   end
 
